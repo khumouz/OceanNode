@@ -113,6 +113,8 @@ docker-compose up -d
 ### Check logs :
 ```
 docker-compose logs -f
+docker-compose logs -f --tail=100
+
 ```
 
 Check peer ID : change port respectively - http://your_ip:8000/dashboard/ 
